@@ -12,6 +12,8 @@
 		208569B91D18E9AD00BF2280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208569B71D18E9AD00BF2280 /* Main.storyboard */; };
 		208569BB1D18E9AD00BF2280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208569BA1D18E9AD00BF2280 /* Assets.xcassets */; };
 		208569BE1D18E9AD00BF2280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208569BC1D18E9AD00BF2280 /* LaunchScreen.storyboard */; };
+		208569C71D18F1B300BF2280 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208569C61D18F1B300BF2280 /* Post.swift */; };
+		208569CA1D18FF0C00BF2280 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208569C91D18FF0C00BF2280 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		208569BA1D18E9AD00BF2280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		208569BD1D18E9AD00BF2280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		208569BF1D18E9AD00BF2280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208569C61D18F1B300BF2280 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		208569C91D18FF0C00BF2280 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		208569B21D18E9AD00BF2280 /* My-Hood */ = {
 			isa = PBXGroup;
 			children = (
+				208569C81D18FECF00BF2280 /* View */,
+				208569C51D18F18F00BF2280 /* Model */,
 				208569B31D18E9AD00BF2280 /* AppDelegate.swift */,
 				208569B51D18E9AD00BF2280 /* ViewController.swift */,
 				208569B71D18E9AD00BF2280 /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				208569BF1D18E9AD00BF2280 /* Info.plist */,
 			);
 			path = "My-Hood";
+			sourceTree = "<group>";
+		};
+		208569C51D18F18F00BF2280 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				208569C61D18F1B300BF2280 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		208569C81D18FECF00BF2280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				208569C91D18FF0C00BF2280 /* PostCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208569C71D18F1B300BF2280 /* Post.swift in Sources */,
 				208569B61D18E9AD00BF2280 /* ViewController.swift in Sources */,
 				208569B41D18E9AD00BF2280 /* AppDelegate.swift in Sources */,
+				208569CA1D18FF0C00BF2280 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
