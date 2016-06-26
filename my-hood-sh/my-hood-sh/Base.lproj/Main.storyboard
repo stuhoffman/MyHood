@@ -18,15 +18,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EIF-rQ-Gua">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="82" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EIF-rQ-Gua">
                                 <rect key="frame" x="20" y="84" width="560" height="496"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="RO0-XN-OQT">
+                                        <rect key="frame" x="0.0" y="28" width="560" height="82"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RO0-XN-OQT" id="nDe-UX-W3R">
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="81.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.56947505470000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F4f-Pc-EQS">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWQ-Xu-ifd">
+                                        <rect key="frame" x="550" y="23" width="42" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="9F9-JJ-4kb"/>
+                                            <constraint firstAttribute="width" constant="42" id="gq5-xk-uZg"/>
+                                        </constraints>
+                                        <state key="normal" image="camera"/>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bannerlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Yu2-8k-IEA">
+                                        <rect key="frame" x="232" y="19" width="137" height="41"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="137" id="cJV-Rg-Gne"/>
+                                            <constraint firstAttribute="height" constant="41" id="j25-Sg-7Ns"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.56947505470000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="MWQ-Xu-ifd" secondAttribute="trailing" constant="8" id="Aic-q2-BnK"/>
+                                    <constraint firstItem="Yu2-8k-IEA" firstAttribute="centerX" secondItem="F4f-Pc-EQS" secondAttribute="centerX" id="iIH-rr-FLK"/>
+                                    <constraint firstAttribute="bottom" secondItem="MWQ-Xu-ifd" secondAttribute="bottom" constant="8" id="sd5-n3-VEI"/>
                                     <constraint firstAttribute="height" constant="64" id="vdD-3a-P2Q"/>
+                                    <constraint firstAttribute="bottom" secondItem="Yu2-8k-IEA" secondAttribute="bottom" constant="4" id="yJN-6P-UE6"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -44,7 +76,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="655" y="617"/>
+            <point key="canvasLocation" x="684" y="614"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bannerlogo" width="518" height="194"/>
+        <image name="camera" width="100" height="77"/>
+    </resources>
 </document>
