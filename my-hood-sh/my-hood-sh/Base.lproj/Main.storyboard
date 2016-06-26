@@ -180,7 +180,6 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5d-OX-qlQ">
                                 <rect key="frame" x="180" y="91" width="240" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="0lh-5J-Kg6"/>
                                     <constraint firstAttribute="width" constant="240" id="vag-oM-4xN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
@@ -200,17 +199,11 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Description" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J4d-Lx-b38">
                                 <rect key="frame" x="20" y="405" width="560" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="PFE-g4-cnO"/>
                                     <constraint firstAttribute="height" constant="40" id="yG9-Vf-pW8"/>
                                 </constraints>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="PFE-g4-cnO"/>
-                                    </mask>
-                                </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLb-uS-HeB">
                                 <rect key="frame" x="239" y="467" width="123" height="30"/>
@@ -228,22 +221,20 @@
                         <constraints>
                             <constraint firstItem="0ez-Nm-1Aj" firstAttribute="centerX" secondItem="vRH-xq-gV4" secondAttribute="centerX" id="3rB-dc-xJp"/>
                             <constraint firstAttribute="trailing" secondItem="Eem-fh-F98" secondAttribute="trailing" id="5T4-BW-Ceu"/>
-                            <constraint firstItem="0ez-Nm-1Aj" firstAttribute="centerY" secondItem="vRH-xq-gV4" secondAttribute="centerY" id="7lk-RK-PrM"/>
                             <constraint firstItem="J4d-Lx-b38" firstAttribute="trailing" secondItem="vRH-xq-gV4" secondAttribute="trailingMargin" id="7sP-4U-PYb"/>
                             <constraint firstItem="U0p-um-0Bs" firstAttribute="trailing" secondItem="vRH-xq-gV4" secondAttribute="trailingMargin" id="I4y-EV-YhR"/>
                             <constraint firstItem="U0p-um-0Bs" firstAttribute="leading" secondItem="vRH-xq-gV4" secondAttribute="leadingMargin" id="LLJ-VT-IIh"/>
                             <constraint firstItem="Eem-fh-F98" firstAttribute="leading" secondItem="vRH-xq-gV4" secondAttribute="leading" id="Oie-Pn-vfy"/>
-                            <constraint firstItem="D5d-OX-qlQ" firstAttribute="centerX" secondItem="vRH-xq-gV4" secondAttribute="centerX" id="QHw-JM-8Kr"/>
-                            <constraint firstItem="D5d-OX-qlQ" firstAttribute="centerX" secondItem="vRH-xq-gV4" secondAttribute="centerX" id="RQB-sL-8Ts"/>
-                            <constraint firstItem="J4d-Lx-b38" firstAttribute="top" secondItem="U0p-um-0Bs" secondAttribute="bottom" constant="15" id="Xy3-fB-QQd"/>
+                            <constraint firstItem="U0p-um-0Bs" firstAttribute="top" secondItem="D5d-OX-qlQ" secondAttribute="bottom" constant="125" id="Pyh-ur-F5p"/>
+                            <constraint firstItem="J4d-Lx-b38" firstAttribute="top" secondItem="U0p-um-0Bs" secondAttribute="bottom" constant="25" id="Xy3-fB-QQd"/>
+                            <constraint firstItem="D5d-OX-qlQ" firstAttribute="centerX" secondItem="0ez-Nm-1Aj" secondAttribute="centerX" id="cDP-ae-eaT"/>
                             <constraint firstItem="J4d-Lx-b38" firstAttribute="leading" secondItem="vRH-xq-gV4" secondAttribute="leadingMargin" id="cOm-yw-JQy"/>
-                            <constraint firstItem="U0p-um-0Bs" firstAttribute="top" secondItem="D5d-OX-qlQ" secondAttribute="bottom" constant="15" id="fhU-8r-VWq"/>
                             <constraint firstItem="Eem-fh-F98" firstAttribute="top" secondItem="vRH-xq-gV4" secondAttribute="top" id="i9w-4K-8D5"/>
                             <constraint firstItem="nLb-uS-HeB" firstAttribute="centerX" secondItem="vRH-xq-gV4" secondAttribute="centerX" id="jyu-g5-xpz"/>
-                            <constraint firstItem="nLb-uS-HeB" firstAttribute="top" secondItem="J4d-Lx-b38" secondAttribute="bottom" constant="15" id="lPo-kG-JbB"/>
+                            <constraint firstItem="nLb-uS-HeB" firstAttribute="top" secondItem="J4d-Lx-b38" secondAttribute="bottom" constant="25" id="lPo-kG-JbB"/>
                             <constraint firstItem="0ez-Nm-1Aj" firstAttribute="top" secondItem="Eem-fh-F98" secondAttribute="bottom" constant="35" id="lWk-bs-Rqp"/>
+                            <constraint firstItem="D5d-OX-qlQ" firstAttribute="centerY" secondItem="0ez-Nm-1Aj" secondAttribute="centerY" id="n9T-t0-lyX"/>
                             <constraint firstItem="0ez-Nm-1Aj" firstAttribute="centerX" secondItem="vRH-xq-gV4" secondAttribute="centerX" id="qbf-bb-uur"/>
-                            <constraint firstItem="D5d-OX-qlQ" firstAttribute="centerY" secondItem="vRH-xq-gV4" secondAttribute="centerY" id="tek-0r-hoi"/>
                         </constraints>
                     </view>
                 </viewController>
