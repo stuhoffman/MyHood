@@ -10,11 +10,28 @@ import UIKit
 
 class AddPostVC: UIViewController {
 
+    @IBOutlet weak var postImg: UIImageView!
+    
+    @IBOutlet weak var titleLbl: UITextField!
+
+    @IBOutlet weak var descLbl: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+
+ 
+    @IBAction func addPicButtonPressed(sender: UIButton) {
+        sender.setTitle("", forState: .Normal)
+    }
+    
+    @IBAction func makePostButtonPressed(sender: AnyObject) {
+    }
    
+    @IBAction func cancelButtonPressed(sender: AnyObject) {
+    }
 }
