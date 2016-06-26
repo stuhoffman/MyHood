@@ -14,6 +14,7 @@
 		20368C081D203624006EA114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20368C061D203624006EA114 /* LaunchScreen.storyboard */; };
 		20368C121D2036C1006EA114 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20368C111D2036C1006EA114 /* Post.swift */; };
 		20368C141D204383006EA114 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20368C131D204383006EA114 /* PostCell.swift */; };
+		20368C171D20930E006EA114 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20368C161D20930E006EA114 /* AddPostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		20368C091D203624006EA114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20368C111D2036C1006EA114 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		20368C131D204383006EA114 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		20368C161D20930E006EA114 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,9 @@
 			children = (
 				20368C0F1D203657006EA114 /* Model */,
 				20368C101D20365E006EA114 /* View */,
+				20368C151D209299006EA114 /* Controller */,
 				20368BFD1D203624006EA114 /* AppDelegate.swift */,
-				20368BFF1D203624006EA114 /* ViewController.swift */,
-				20368C011D203624006EA114 /* Main.storyboard */,
 				20368C041D203624006EA114 /* Assets.xcassets */,
-				20368C061D203624006EA114 /* LaunchScreen.storyboard */,
 				20368C091D203624006EA114 /* Info.plist */,
 			);
 			path = "my-hood-sh";
@@ -81,9 +81,20 @@
 		20368C101D20365E006EA114 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				20368C061D203624006EA114 /* LaunchScreen.storyboard */,
+				20368C011D203624006EA114 /* Main.storyboard */,
 				20368C131D204383006EA114 /* PostCell.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		20368C151D209299006EA114 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20368BFF1D203624006EA114 /* ViewController.swift */,
+				20368C161D20930E006EA114 /* AddPostVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			files = (
 				20368C121D2036C1006EA114 /* Post.swift in Sources */,
 				20368C001D203624006EA114 /* ViewController.swift in Sources */,
+				20368C171D20930E006EA114 /* AddPostVC.swift in Sources */,
 				20368BFE1D203624006EA114 /* AppDelegate.swift in Sources */,
 				20368C141D204383006EA114 /* PostCell.swift in Sources */,
 			);
