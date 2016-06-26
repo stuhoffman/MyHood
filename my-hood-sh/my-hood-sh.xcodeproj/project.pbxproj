@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		208569B41D18E9AD00BF2280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208569B31D18E9AD00BF2280 /* AppDelegate.swift */; };
-		208569B61D18E9AD00BF2280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208569B51D18E9AD00BF2280 /* ViewController.swift */; };
-		208569B91D18E9AD00BF2280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208569B71D18E9AD00BF2280 /* Main.storyboard */; };
-		208569BB1D18E9AD00BF2280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208569BA1D18E9AD00BF2280 /* Assets.xcassets */; };
-		208569BE1D18E9AD00BF2280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208569BC1D18E9AD00BF2280 /* LaunchScreen.storyboard */; };
-		208569C71D18F1B300BF2280 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208569C61D18F1B300BF2280 /* Post.swift */; };
-		208569CA1D18FF0C00BF2280 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208569C91D18FF0C00BF2280 /* PostCell.swift */; };
+		20368BFE1D203624006EA114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20368BFD1D203624006EA114 /* AppDelegate.swift */; };
+		20368C001D203624006EA114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20368BFF1D203624006EA114 /* ViewController.swift */; };
+		20368C031D203624006EA114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20368C011D203624006EA114 /* Main.storyboard */; };
+		20368C051D203624006EA114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20368C041D203624006EA114 /* Assets.xcassets */; };
+		20368C081D203624006EA114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20368C061D203624006EA114 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		208569B01D18E9AD00BF2280 /* My-Hood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My-Hood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		208569B31D18E9AD00BF2280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		208569B51D18E9AD00BF2280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		208569B81D18E9AD00BF2280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		208569BA1D18E9AD00BF2280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		208569BD1D18E9AD00BF2280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		208569BF1D18E9AD00BF2280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		208569C61D18F1B300BF2280 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		208569C91D18FF0C00BF2280 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		20368BFA1D203624006EA114 /* my-hood-sh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-hood-sh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20368BFD1D203624006EA114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20368BFF1D203624006EA114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20368C021D203624006EA114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20368C041D203624006EA114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20368C071D203624006EA114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20368C091D203624006EA114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		208569AD1D18E9AD00BF2280 /* Frameworks */ = {
+		20368BF71D203624006EA114 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,49 +35,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		208569A71D18E9AD00BF2280 = {
+		20368BF11D203624006EA114 = {
 			isa = PBXGroup;
 			children = (
-				208569B21D18E9AD00BF2280 /* My-Hood */,
-				208569B11D18E9AD00BF2280 /* Products */,
+				20368BFC1D203624006EA114 /* my-hood-sh */,
+				20368BFB1D203624006EA114 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		208569B11D18E9AD00BF2280 /* Products */ = {
+		20368BFB1D203624006EA114 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				208569B01D18E9AD00BF2280 /* My-Hood.app */,
+				20368BFA1D203624006EA114 /* my-hood-sh.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		208569B21D18E9AD00BF2280 /* My-Hood */ = {
+		20368BFC1D203624006EA114 /* my-hood-sh */ = {
 			isa = PBXGroup;
 			children = (
-				208569C81D18FECF00BF2280 /* View */,
-				208569C51D18F18F00BF2280 /* Model */,
-				208569B31D18E9AD00BF2280 /* AppDelegate.swift */,
-				208569B51D18E9AD00BF2280 /* ViewController.swift */,
-				208569B71D18E9AD00BF2280 /* Main.storyboard */,
-				208569BA1D18E9AD00BF2280 /* Assets.xcassets */,
-				208569BC1D18E9AD00BF2280 /* LaunchScreen.storyboard */,
-				208569BF1D18E9AD00BF2280 /* Info.plist */,
+				20368C101D20365E006EA114 /* View */,
+				20368C0F1D203657006EA114 /* Model */,
+				20368BFD1D203624006EA114 /* AppDelegate.swift */,
+				20368BFF1D203624006EA114 /* ViewController.swift */,
+				20368C011D203624006EA114 /* Main.storyboard */,
+				20368C041D203624006EA114 /* Assets.xcassets */,
+				20368C061D203624006EA114 /* LaunchScreen.storyboard */,
+				20368C091D203624006EA114 /* Info.plist */,
 			);
-			path = "My-Hood";
+			path = "my-hood-sh";
 			sourceTree = "<group>";
 		};
-		208569C51D18F18F00BF2280 /* Model */ = {
+		20368C0F1D203657006EA114 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				208569C61D18F1B300BF2280 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
 		};
-		208569C81D18FECF00BF2280 /* View */ = {
+		20368C101D20365E006EA114 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				208569C91D18FF0C00BF2280 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -89,39 +83,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		208569AF1D18E9AD00BF2280 /* My-Hood */ = {
+		20368BF91D203624006EA114 /* my-hood-sh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 208569C21D18E9AD00BF2280 /* Build configuration list for PBXNativeTarget "My-Hood" */;
+			buildConfigurationList = 20368C0C1D203624006EA114 /* Build configuration list for PBXNativeTarget "my-hood-sh" */;
 			buildPhases = (
-				208569AC1D18E9AD00BF2280 /* Sources */,
-				208569AD1D18E9AD00BF2280 /* Frameworks */,
-				208569AE1D18E9AD00BF2280 /* Resources */,
+				20368BF61D203624006EA114 /* Sources */,
+				20368BF71D203624006EA114 /* Frameworks */,
+				20368BF81D203624006EA114 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "My-Hood";
-			productName = "My-Hood";
-			productReference = 208569B01D18E9AD00BF2280 /* My-Hood.app */;
+			name = "my-hood-sh";
+			productName = "my-hood-sh";
+			productReference = 20368BFA1D203624006EA114 /* my-hood-sh.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		208569A81D18E9AD00BF2280 /* Project object */ = {
+		20368BF21D203624006EA114 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Stuart Hoffman";
 				TargetAttributes = {
-					208569AF1D18E9AD00BF2280 = {
+					20368BF91D203624006EA114 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QYKF54APFV;
 					};
 				};
 			};
-			buildConfigurationList = 208569AB1D18E9AD00BF2280 /* Build configuration list for PBXProject "My-Hood" */;
+			buildConfigurationList = 20368BF51D203624006EA114 /* Build configuration list for PBXProject "my-hood-sh" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,56 +124,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 208569A71D18E9AD00BF2280;
-			productRefGroup = 208569B11D18E9AD00BF2280 /* Products */;
+			mainGroup = 20368BF11D203624006EA114;
+			productRefGroup = 20368BFB1D203624006EA114 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				208569AF1D18E9AD00BF2280 /* My-Hood */,
+				20368BF91D203624006EA114 /* my-hood-sh */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		208569AE1D18E9AD00BF2280 /* Resources */ = {
+		20368BF81D203624006EA114 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				208569BE1D18E9AD00BF2280 /* LaunchScreen.storyboard in Resources */,
-				208569BB1D18E9AD00BF2280 /* Assets.xcassets in Resources */,
-				208569B91D18E9AD00BF2280 /* Main.storyboard in Resources */,
+				20368C081D203624006EA114 /* LaunchScreen.storyboard in Resources */,
+				20368C051D203624006EA114 /* Assets.xcassets in Resources */,
+				20368C031D203624006EA114 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		208569AC1D18E9AD00BF2280 /* Sources */ = {
+		20368BF61D203624006EA114 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				208569C71D18F1B300BF2280 /* Post.swift in Sources */,
-				208569B61D18E9AD00BF2280 /* ViewController.swift in Sources */,
-				208569B41D18E9AD00BF2280 /* AppDelegate.swift in Sources */,
-				208569CA1D18FF0C00BF2280 /* PostCell.swift in Sources */,
+				20368C001D203624006EA114 /* ViewController.swift in Sources */,
+				20368BFE1D203624006EA114 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		208569B71D18E9AD00BF2280 /* Main.storyboard */ = {
+		20368C011D203624006EA114 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				208569B81D18E9AD00BF2280 /* Base */,
+				20368C021D203624006EA114 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		208569BC1D18E9AD00BF2280 /* LaunchScreen.storyboard */ = {
+		20368C061D203624006EA114 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				208569BD1D18E9AD00BF2280 /* Base */,
+				20368C071D203624006EA114 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -186,7 +179,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		208569C01D18E9AD00BF2280 /* Debug */ = {
+		20368C0A1D203624006EA114 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +225,7 @@
 			};
 			name = Debug;
 		};
-		208569C11D18E9AD00BF2280 /* Release */ = {
+		20368C0B1D203624006EA114 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,49 +264,55 @@
 			};
 			name = Release;
 		};
-		208569C31D18E9AD00BF2280 /* Debug */ = {
+		20368C0D1D203624006EA114 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "My-Hood/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "my-hood-sh/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hoffman.My-Hood";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoffman.my-hood-sh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		208569C41D18E9AD00BF2280 /* Release */ = {
+		20368C0E1D203624006EA114 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "My-Hood/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "my-hood-sh/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hoffman.My-Hood";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoffman.my-hood-sh";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		208569AB1D18E9AD00BF2280 /* Build configuration list for PBXProject "My-Hood" */ = {
+		20368BF51D203624006EA114 /* Build configuration list for PBXProject "my-hood-sh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				208569C01D18E9AD00BF2280 /* Debug */,
-				208569C11D18E9AD00BF2280 /* Release */,
+				20368C0A1D203624006EA114 /* Debug */,
+				20368C0B1D203624006EA114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		208569C21D18E9AD00BF2280 /* Build configuration list for PBXNativeTarget "My-Hood" */ = {
+		20368C0C1D203624006EA114 /* Build configuration list for PBXNativeTarget "my-hood-sh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				208569C31D18E9AD00BF2280 /* Debug */,
-				208569C41D18E9AD00BF2280 /* Release */,
+				20368C0D1D203624006EA114 /* Debug */,
+				20368C0E1D203624006EA114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 208569A81D18E9AD00BF2280 /* Project object */;
+	rootObject = 20368BF21D203624006EA114 /* Project object */;
 }

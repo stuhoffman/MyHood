@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:My-Hood.xcodeproj">
+      location = "self:my-hood-sh.xcodeproj">
    </FileRef>
 </Workspace>

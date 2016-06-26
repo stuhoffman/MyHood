@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  My-Hood
+//  my-hood-sh
 //
-//  Created by Stuart Hoffman on 6/20/16.
+//  Created by Stuart Hoffman on 6/26/16.
 //  Copyright © 2016 Stuart Hoffman. All rights reserved.
 //
 
