@@ -22,7 +22,7 @@
                                 <rect key="frame" x="20" y="84" width="560" height="496"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="RO0-XN-OQT">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="RO0-XN-OQT" customClass="PostCell" customModule="my_hood_sh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="560" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RO0-XN-OQT" id="nDe-UX-W3R">
@@ -68,6 +68,11 @@
                                                 <constraint firstItem="VzZ-VU-fep" firstAttribute="top" secondItem="nDe-UX-W3R" secondAttribute="topMargin" id="t3q-gk-79F"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descLbl" destination="Qk2-l3-wSd" id="7eo-s9-OLr"/>
+                                            <outlet property="postImg" destination="VzZ-VU-fep" id="sCU-rP-rz9"/>
+                                            <outlet property="titleLbl" destination="MnU-E4-rL1" id="Vw3-F6-yn8"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
