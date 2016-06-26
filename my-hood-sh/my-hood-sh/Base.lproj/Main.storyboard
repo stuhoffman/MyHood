@@ -28,8 +28,46 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RO0-XN-OQT" id="nDe-UX-W3R">
                                             <rect key="frame" x="0.0" y="0.0" width="560" height="81.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barrel-water-bridge" translatesAutoresizingMaskIntoConstraints="NO" id="VzZ-VU-fep">
+                                                    <rect key="frame" x="8" y="8" width="70" height="70"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="70" id="aSg-Tk-mJy"/>
+                                                        <constraint firstAttribute="width" constant="70" id="loo-aX-Flb"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just a lovely title right here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MnU-E4-rL1">
+                                                    <rect key="frame" x="86" y="8" width="474" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="OFt-yF-4n1"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Qk2-l3-wSd">
+                                                    <rect key="frame" x="86" y="32" width="474" height="41.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="41.5" id="mFk-U1-iKC"/>
+                                                    </constraints>
+                                                    <string key="text">A very long description label we want to handle up to 3 lines here yes 3 whole lines of text here. This is not quite 3 lines yet so we are going to add more text.</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="MnU-E4-rL1" firstAttribute="top" secondItem="nDe-UX-W3R" secondAttribute="topMargin" id="9xv-V4-9ql"/>
+                                                <constraint firstItem="Qk2-l3-wSd" firstAttribute="top" secondItem="nDe-UX-W3R" secondAttribute="topMargin" constant="24" id="A6V-R4-r7d"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Qk2-l3-wSd" secondAttribute="trailing" constant="-8" id="Dsh-A2-9QD"/>
+                                                <constraint firstItem="Qk2-l3-wSd" firstAttribute="leading" secondItem="VzZ-VU-fep" secondAttribute="trailing" constant="8" id="YcK-Fz-KPm"/>
+                                                <constraint firstItem="MnU-E4-rL1" firstAttribute="leading" secondItem="VzZ-VU-fep" secondAttribute="trailing" constant="8" id="e97-E9-Fn1"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="VzZ-VU-fep" secondAttribute="trailing" constant="474" id="eWd-U2-U7T"/>
+                                                <constraint firstItem="VzZ-VU-fep" firstAttribute="leading" secondItem="nDe-UX-W3R" secondAttribute="leadingMargin" id="fxY-ze-dyG"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="MnU-E4-rL1" secondAttribute="trailing" constant="-8" id="ofy-au-Cyd"/>
+                                                <constraint firstItem="VzZ-VU-fep" firstAttribute="top" secondItem="nDe-UX-W3R" secondAttribute="topMargin" id="t3q-gk-79F"/>
+                                            </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.0" green="0.56947505470000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -81,6 +119,7 @@
     </scenes>
     <resources>
         <image name="bannerlogo" width="518" height="194"/>
+        <image name="barrel-water-bridge" width="550" height="440"/>
         <image name="camera" width="100" height="77"/>
     </resources>
 </document>
