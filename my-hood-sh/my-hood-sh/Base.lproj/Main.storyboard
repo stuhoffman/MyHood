@@ -116,6 +116,9 @@
                             <constraint firstItem="EIF-rQ-Gua" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="znW-Hk-sLy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="EIF-rQ-Gua" id="2u6-Wo-n5r"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
