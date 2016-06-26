@@ -19,5 +19,12 @@ class PostCell: UITableViewCell {
         // Initialization code
     }
 
+    
+    func configureCell(post: Post)
+    {
+        titleLbl.text = post.title
+        descLbl.text = post.postDesc
+        
+    }
    
 }
