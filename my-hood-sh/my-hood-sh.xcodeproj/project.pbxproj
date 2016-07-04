@@ -15,6 +15,7 @@
 		20368C121D2036C1006EA114 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20368C111D2036C1006EA114 /* Post.swift */; };
 		20368C141D204383006EA114 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20368C131D204383006EA114 /* PostCell.swift */; };
 		20368C171D20930E006EA114 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20368C161D20930E006EA114 /* AddPostVC.swift */; };
+		2048414C1D29C2A4005E6494 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2048414B1D29C2A4005E6494 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		20368C111D2036C1006EA114 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		20368C131D204383006EA114 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		20368C161D20930E006EA114 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		2048414B1D29C2A4005E6494 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		20368BFC1D203624006EA114 /* my-hood-sh */ = {
 			isa = PBXGroup;
 			children = (
+				2048414A1D29C28F005E6494 /* Services */,
 				20368C0F1D203657006EA114 /* Model */,
 				20368C101D20365E006EA114 /* View */,
 				20368C151D209299006EA114 /* Controller */,
@@ -95,6 +98,14 @@
 				20368C161D20930E006EA114 /* AddPostVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		2048414A1D29C28F005E6494 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2048414B1D29C2A4005E6494 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 				20368C121D2036C1006EA114 /* Post.swift in Sources */,
 				20368C001D203624006EA114 /* ViewController.swift in Sources */,
 				20368C171D20930E006EA114 /* AddPostVC.swift in Sources */,
+				2048414C1D29C2A4005E6494 /* DataService.swift in Sources */,
 				20368BFE1D203624006EA114 /* AppDelegate.swift in Sources */,
 				20368C141D204383006EA114 /* PostCell.swift in Sources */,
 			);
@@ -331,6 +343,7 @@
 				20368C0E1D203624006EA114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
